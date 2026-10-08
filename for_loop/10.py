@@ -39,14 +39,15 @@ special = False
 
 
 for i in password:
-    if i.isdigit():
-        digit = True
     if i.isupper():
         upper = True
-    if i in "!@#$%^&*":
-        special = True
-    if i.islower():
+    elif i.islower():
         lower = True
+    elif i.isdigit():
+        digit = True
+    elif i in "!@#$%^&*":
+        special = True
+    
 
 
 if digit and upper and special and lower:
