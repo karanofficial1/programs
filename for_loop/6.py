@@ -11,5 +11,5 @@ for i in string:
         upper +=1
     else:
         pass
-print("No. of uPPer case letter: ", upper)
+print("No. of Upper case letter: ", upper)
 print("no. of lower case letter: ", lower)

@@ -48,19 +48,21 @@ for i in password:
     if i.islower():
         lower = True
 
-if len(password) < 8:
-    print("[x] Must be at least 8 characters long")
-if digit == False:
-    print("[x] Must contain at least one digit")
-if upper == False:
-    print("[x] Must contain at least one uppercase letter")
-if special == False:
-    print("[x] Must contain at least one special character")
-if lower == False:
-    print("[x] Must contain at least one lowercase letter")
+
 if digit and upper and special and lower:
     print("Password is VALID.") 
     print("All requirements are met.")
+else:
+    if len(password) < 8:
+        print("[x] Must be at least 8 characters long")
+    if digit == False:
+        print("[x] Must contain at least one digit")
+    if upper == False:
+        print("[x] Must contain at least one uppercase letter")
+    if special == False:
+        print("[x] Must contain at least one special character")
+    if lower == False:
+        print("[x] Must contain at least one lowercase letter")
 
 
     
