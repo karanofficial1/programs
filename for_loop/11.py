@@ -4,8 +4,7 @@
 input  = ['apple', 'racecar', 'carac', 'mam', 'orange', 121, 331]
 palindrome = []
 for i in input:
-    i = str(i)
-    if i == i[::-1]:
+   if str(i) == str(i)[::-1]:
         palindrome.append(i)
             
 print(palindrome)
