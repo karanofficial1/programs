@@ -1,11 +1,11 @@
-# names = ['karan', 'sujan', 'ramesh', 'suman', 'shyam']
-# op=[]
-# for i in names:
-#     if i.startswith("s"):
-#         print(i)
-#         op.append(i)
+names = ['karan', 'sujan', 'ramesh', 'suman', 'shyam']
+op=[]
+for i in names:
+    if i.startswith("s"):
+        print(i)
+        op.append(i)
 
-# print(op)
+print(op)
 
 
 age_group =[17,18,13,88,34,40,45,20,91,25]
