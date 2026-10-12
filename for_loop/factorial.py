@@ -7,3 +7,7 @@ for a in range(1, i+1):
     print(fact)
 
 print(fact)
+
+
+a = "Strasse"
+print(a.casefold())
