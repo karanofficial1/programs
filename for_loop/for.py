@@ -44,6 +44,14 @@ num = 0
 for i in word:
     num +=1
 print("\nnumber of characters: ", num)
-    
+
+
+# NO. of words in sentence
+word = input("\nEnter your sentence: ")
+num = 1
+for i in word:
+    if i == " ":
+        num +=1
+print("\nnumber of Words: ", num)
 
 
