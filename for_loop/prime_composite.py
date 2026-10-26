@@ -13,4 +13,13 @@ for i in range(2, number):
 if prime:
     print("Prime number")
 
-        
+
+# if number == 2:
+#     print("ODd number.")   
+
+# for i in range(3, number):
+#     if number % i == 0:
+#         print("Composite number.")
+#         break
+#     else:
+#         print("Odd number")   
