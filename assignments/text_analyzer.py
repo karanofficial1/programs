@@ -8,23 +8,23 @@ REQUIREMENTS
 
 sen = input("Enter your sentence: ").lower()
 sentence = sen.strip()
-# word = 1    # Every sentence has single word
-# vowels = 0
-# title_case = sentence.title()  # convert to title case
-# without_space = sentence.replace(" ", "")  # remove all spaces
-# if without_space == without_space[::-1]:   #check for palindrome.
-#     print("Palindrome")
-# else:
-#     print("Not Palindrome.")
-# for i in sentence:
-#     if i == " ":
-#         word +=1
-#     if i in 'aeiou':
-#         vowels += 1
+word = 1    # Every sentence has single word
+vowels = 0
+title_case = sentence.title()  # convert to title case
+without_space = sentence.replace(" ", "")  # remove all spaces
+if without_space == without_space[::-1]:   #check for palindrome.
+    print("Palindrome")
+else:
+    print("Not Palindrome.")
+for i in sentence:
+    if i == " ":
+        word +=1
+    if i in 'aeiou':
+        vowels += 1
 
-# print('Number of Word: ', word)
-# print('Number of vowels: ', vowels)
-# print("Sentence in title case: ", title_case)
+print('Number of Word: ', word)
+print('Number of vowels: ', vowels)
+print("Sentence in title case: ", title_case)
 
 
 words_split = sentence.split(" ")
