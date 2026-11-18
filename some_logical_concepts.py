@@ -60,3 +60,38 @@ b = a
 a.pop()
 print(a)
 print(b)
+
+
+# Filter only negative and zero in the list using list comprehension
+numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
+non_negative = [i for i in numbers if i >= 0 ]
+print(non_negative)
+
+square = [i*i for i in numbers]    # square numbers of above list
+print(square)
+
+## Filter only negative and zero in the list using list comprehension and make their square
+non_negative = [i*i for i in numbers if i >= 0 ]
+print(non_negative)
+
+
+# Generating even numbers
+even_numbers = [i for i in range(11) if i % 2 == 0]
+print(even_numbers)
+
+# Generating odd numbers
+odd_numbers = [i for i in range(11) if i % 2 != 0]
+print(odd_numbers)
+
+#lambda function
+square = lambda x : x ** 2
+print(square(3))  
+
+sum = lambda x,y,z : x+y+z
+print(sum(3,4,5))
+
+# Flatten the following list of lists of lists to a one dimensional list :
+
+list_of_lists =[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flatten = [i for j in list_of_lists for i in j]
+print(flatten)
